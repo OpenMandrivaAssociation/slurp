@@ -1,6 +1,6 @@
 Name:           slurp
-Version:        1.2.0
-Release:        1.2
+Version:	1.3.1
+Release:	1
 Summary:        Wayland region selector
 License:        MIT
 URL:            https://github.com/emersion/slurp
@@ -8,6 +8,7 @@ Source0:        https://github.com/emersion/slurp/archive/v%{version}.tar.gz
 BuildRequires:  meson >= 0.48.0
 BuildRequires:  scdoc
 BuildRequires:  pkgconfig(cairo)
+BuildRequires:  pkgconfig(xkbcommon)
 BuildRequires:  pkgconfig(wayland-client)
 BuildRequires:  pkgconfig(wayland-protocols) >= 1.14
 
