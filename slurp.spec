@@ -1,6 +1,6 @@
 Name:           slurp
 Version:	1.4.0
-Release:	1
+Release:	2
 Summary:        Wayland region selector
 License:        MIT
 URL:            https://github.com/emersion/slurp
